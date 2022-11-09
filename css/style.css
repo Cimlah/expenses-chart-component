@@ -1,2 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+    --colour-soft-red: hsl(10, 79%, 65%);
+    --colour-cyan: hsl(186, 34%, 60%);
+    --colour-dark-brown: hsl(25, 47%, 15%);
+    --colour-medium-brown: hsl(28, 10%, 53%);
+    --colour-cream: hsl(27, 66%, 92%);
+    --colour-very-pale-orange: hsl(33, 100%, 98%);
+
+    --content-width: 90%;
+
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
