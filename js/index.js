@@ -6,3 +6,7 @@ days.forEach((day, index) => {
 
     day.setAttribute("amount", "$" + jsonData[index])
 })
+
+const date = new Date()
+let currentDayOfWeek = date.getDay()-1
+days[currentDayOfWeek].style.backgroundColor = "var(--colour-cyan)"
