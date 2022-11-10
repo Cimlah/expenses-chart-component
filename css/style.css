@@ -150,4 +150,27 @@ hr {
     background-color: var(--colour-soft-red);
     width: 100%;
     border-radius: 5px;
+
+    position: relative;
+}
+
+.day::after {
+    content: attr(amount);
+    display: none;
+    position: absolute;
+    background-color: var(--colour-dark-brown);
+    color: var(--colour-very-pale-orange);
+    text-align: center;
+    padding: 0.4rem;
+    border-radius: 5px;
+    z-index: 10;
+
+    top: -2.5rem;
+    min-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.day:hover::after {
+    display: block;
 }
