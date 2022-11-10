@@ -79,7 +79,7 @@ hr {
 
 .spending-box {
     width: var(--content-width);
-    height: 60%;
+    height: calc(60% + 6rem);
     padding: 1rem;
     background-color: var(--colour-very-pale-orange);
     color: var(--colour-dark-brown);
@@ -88,7 +88,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 2.5rem;
 }
 
 .total-this-month {
