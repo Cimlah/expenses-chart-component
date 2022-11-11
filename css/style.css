@@ -150,15 +150,20 @@ hr {
     background-color: var(--colour-soft-red);
     width: 100%;
     border-radius: 5px;
+    cursor: pointer;
 
     position: relative;
+}
+
+.day:hover {
+    opacity: 80%;
 }
 
 .day::after {
     content: attr(amount);
     display: none;
     position: absolute;
-    background-color: var(--colour-dark-brown);
+    background-color: #000000;
     color: var(--colour-very-pale-orange);
     text-align: center;
     padding: 0.4rem;
